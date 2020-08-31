@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<style>
+		display:flex;
+	justify-content:space-between;
+	align-items:center;</style>
 		<link rel="stylesheet" href="styles.css" />
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1.0 		/>">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0 />">
 		<title>Friends - Kokoa Clone</title>
 	</head>
 	<body>
@@ -28,10 +32,49 @@
 					<span><i class="fas fa-search"></i></span>
 					<span><i class="fas fa-music"></i></span>
 					<span><i class="fas fa-cog"></i></span>
-
 				</div>
 		</header>
 		
+		<a id="friends-display-link">
+		<i class="fas fa-info-circle"></i>Friends' Names Display<i class="fas fa-chevron-right fa-xs"></i>
+		</a>
+		
+		<main clas="friends_screen">
+			<div class="user-component">
+				<div class="user-component_colum">
+				<img src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/5mj4/image/jVK3N1tMDK3fpTkOuR7YDvAulxA.jpg" class="user-component_avatar user-component_avatar--xl" />
+				<div class="user-component_text">
+					<h4 class="user-component_title">Elon</h4>
+				<!--<h6 class="user-component_subtitle">this text whatever</h6>-->
+				</div>
+			</div>
+				<div class="user-component_colum"></div>
+			</div>
+			 <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://t1.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/5mj4/image/jVK3N1tMDK3fpTkOuR7YDvAulxA.jpg" class="user-component_avatar user-component_avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Channel</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span>
+            <i class="fas fa-chevron-right fa-xs"></i>
+          </div>
+        </div>
+      </div>
+		</main>
+		
+			
+			
+
 		<nav class="nav">	
 			<ul class="nav_list">
 					<li class="nav_btn">
@@ -49,6 +92,6 @@
 			</ul>
 		</nav>
 		
-		<script src="https://kit.fontawesome.com/6478f529f2.js" 					crossorigin="anonymous"></script>
+		<script src="https://kit.fontawesome.com/6478f529f2.js"	crossorigin="anonymous"></script>
 	</body>
 </html>
