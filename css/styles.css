@@ -10,6 +10,8 @@
 @import "find.css";
 @import "icon-raw.css";
 @import "more.css";
+@import "alternative screen header.css";
+@import "settings.css";
 body{
 color:#2e363e;
 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
